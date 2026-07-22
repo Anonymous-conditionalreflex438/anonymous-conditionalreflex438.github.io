@@ -117,7 +117,7 @@ button {
 }
 
 .section {
-    padding: 4.5rem 0;
+    padding: 4rem 0 9rem 0;
     position: relative;
 }
 
@@ -740,6 +740,10 @@ button {
 }
 
 /* Contact layout */
+.contact.section {
+    padding-bottom: 4rem;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -913,7 +917,11 @@ a.contact-card:hover .contact-card-icon {
     }
     
     .section {
-        padding: 4rem 0;
+        padding: 3.5rem 0 7rem 0;
+    }
+    
+    .contact.section {
+        padding-bottom: 3rem;
     }
 
     .hero-title {
@@ -1005,73 +1013,4 @@ a.contact-card:hover .contact-card-icon {
     }
 }
 
-/* Viewport Height Responsiveness (for laptops with display scaling) */
-@media (max-height: 800px) {
-    .section {
-        padding: 2rem 0;
-    }
-    
-    .section-header {
-        margin-bottom: 1.5rem;
-    }
-    
-    .hero {
-        padding-top: 5rem;
-        padding-bottom: 1rem;
-    }
-    
-    .hero-avatar {
-        width: 90px;
-        height: 90px;
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-    }
-    
-    .hero-title {
-        font-size: 2.5rem;
-    }
-    
-    .hero-description {
-        margin-bottom: 1.5rem;
-        font-size: 1rem;
-    }
-    
-    .scroll-down {
-        margin-top: 1.5rem;
-    }
-    
-    .expertise-card, .project-card {
-        padding: 1.25rem;
-    }
-    
-    .card-icon-container, .project-icon-box {
-        width: 2.5rem;
-        height: 2.5rem;
-        margin-bottom: 0.75rem;
-    }
-    
-    .card-title, .project-title {
-        font-size: 1.15rem;
-        margin-bottom: 0.4rem;
-    }
-    
-    .card-description, .project-description {
-        font-size: 0.88rem;
-        line-height: 1.4;
-        margin-bottom: 1rem;
-    }
-    
-    .about-grid {
-        gap: 2rem;
-    }
-    
-    .stat-card {
-        padding: 1rem 1.5rem;
-        gap: 1rem;
-    }
-    
-    .stat-number {
-        font-size: 1.8rem;
-        min-width: 55px;
-    }
-}
+
