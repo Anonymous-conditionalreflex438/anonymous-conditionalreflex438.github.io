@@ -314,6 +314,7 @@ button {
     justify-content: center;
     padding-top: 6rem;
     padding-bottom: 2rem;
+    position: relative;
 }
 
 .hero-container {
@@ -342,7 +343,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
     font-family: var(--font-heading);
     font-weight: 800;
     font-size: 2.2rem;
@@ -428,7 +429,7 @@ button {
     font-size: 1.1rem;
     color: var(--text-muted);
     max-width: 640px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .hero-buttons {
@@ -450,7 +451,7 @@ button {
 
 /* Mouse Scroll down indicator */
 .scroll-down {
-    margin-top: 3rem;
+    margin-top: 2.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1015,7 +1016,7 @@ a.contact-card:hover .contact-card-icon {
 
 
 /* Viewport Height Responsiveness (for small screen heights / scaled displays) */
-@media (max-height: 650px) {
+@media (max-height: 700px) {
     .section {
         padding: 2.5rem 0 5rem 0; /* Tighter top padding, generous bottom padding to prevent title bleed */
     }
@@ -1115,5 +1116,14 @@ a.contact-card:hover .contact-card-icon {
     
     .stat-label {
         font-size: 0.88rem;
+    }
+    
+    .contact.section {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .footer {
+        padding: 1.5rem 0;
     }
 }
