@@ -1015,4 +1015,115 @@ a.contact-card:hover .contact-card-icon {
 }
 
 
-
+/* Viewport Height Responsiveness (for small screen heights / scaled displays) */
+@media (max-height: 670px) {
+    .section {
+        padding: 2.5rem 0 5rem 0; /* Tighter top padding, generous bottom padding to prevent title bleed */
+    }
+    
+    .section-header {
+        margin-bottom: 1.25rem;
+    }
+    
+    .hero {
+        padding-top: 4.5rem;
+        padding-bottom: 0.5rem;
+        min-height: 100vh;
+    }
+    
+    .hero-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 1.8rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .hero-tagline {
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .hero-title {
+        font-size: 2.25rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+        min-height: auto;
+    }
+    
+    .hero-description {
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+        line-height: 1.45;
+    }
+    
+    .scroll-down {
+        margin-top: 1.5rem;
+    }
+    
+    .expertise-card, .project-card {
+        padding: 1.25rem;
+    }
+    
+    .card-icon-container, .project-icon-box {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .card-icon {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+    .project-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    
+    .project-category {
+        font-size: 0.7rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .card-title, .project-title {
+        font-size: 1.15rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    .card-description, .project-description {
+        font-size: 0.88rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    
+    .about-grid {
+        gap: 2rem;
+    }
+    
+    .stat-card {
+        padding: 0.75rem 1.25rem;
+        gap: 0.75rem;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+        min-width: 50px;
+    }
+    
+    .stat-label {
+        font-size: 0.85rem;
+    }
+    
+    .contact.section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .footer {
+        padding: 1.5rem 0;
+    }
+}
